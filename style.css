@@ -1,0 +1,147 @@
+body {
+  background: linear-gradient(45deg, #034159 0%, #0CF25D 100%);
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #09bf49;
+}
+
+h1, h2, h3 {
+font-family: "Raleway", sans-serif;
+color: #0CF25D;
+}
+
+h1 {
+  font-size : 48px;
+  margin: 16px;
+  margin-bottom: 4px;
+}
+
+h2 {
+  font-size : 32px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+img {
+  width: 500px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+}
+
+li {
+  padding-right: 24px;
+}
+
+i{
+  font-size: 48px;
+  color: #0CF25D;
+}
+
+i:hover {
+  color: #09bf49;
+  transition-duration: 300ms;
+  transform: rotate(20deg);
+ }
+
+p {
+  margin-bottom: 32px;
+}
+
+/* IDs  */
+
+#main-button {
+  font-weight : 700;
+  text-decoration: none;
+  color : #034159;
+  background-color: #0CF25D;
+  padding : 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 4px;
+}
+
+#main-button:hover {
+background-color: #034159;
+ color: #0CF25D;
+ border: 4px solid #0CF25D;
+ transition-duration: 300ms;
+}
+
+#remove_padding_last_li{
+  padding: 0px;
+}
+
+#remove_bottom_padding{
+  padding-bottom: 0;
+}
+
+#img-footer{
+  width: 450px;
+  border-radius: 4px;
+}
+
+#img-header{
+  padding-bottom: 0;
+  margin-right: 28px;
+  margin-bottom: -7px;
+}
+
+/* CLASSES */
+
+.card{
+  background-color: #034159;
+  margin: 0 auto;
+  border-radius: 4px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, .2);
+  padding: 40px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  width : 700px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 24px;
+  border : 1px solid #0cf25d2d;
+}
+
+
+.padding-bottom{
+  padding-bottom: 48px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card {
+    width: 300px;
+  }
+  img{
+    width: 300px;
+  }
+  #img-footer{
+    width: 300px;
+    border-radius: 4px;
+  }
+}
